@@ -16,26 +16,70 @@ class BHeap {
         void printKey();
 };
 
-template<class keytype, class valuetype>
-BHeap<keytype, valuetype>::BHeap() {}
+//####################################################################
 
 template<class keytype, class valuetype>
-BHeap<keytype, valuetype>::BHeap(keytype k[], valuetype v[], int s) {}
+BHeap<keytype, valuetype>::BHeap() {
+/*
+Constructor - empty
+*/
+
+}
 
 template<class keytype, class valuetype>
-BHeap<keytype, valuetype>::~BHeap() {}
+BHeap<keytype, valuetype>::BHeap(keytype k[], valuetype v[], int s) {
+/*
+Constructor - repeated insertion
+*/
+   
+}
 
 template<class keytype, class valuetype>
-keytype BHeap<keytype, valuetype>::peakKey() {}
+BHeap<keytype, valuetype>::~BHeap() {
+/*
+Destructor
+*/
+
+}
+
+//####################################################################
 
 template<class keytype, class valuetype>
-valuetype BHeap<keytype, valuetype>::peakValue() {}
+keytype BHeap<keytype, valuetype>::peakKey() {
+/*
+Returns minimum key in heap w/o modifying the heap
+*/
+
+}
 
 template<class keytype, class valuetype>
-keytype BHeap<keytype, valuetype>::extractMin() {}
+valuetype BHeap<keytype, valuetype>::peakValue() {
+/*
+Returns associated value of minimum key in heap w/o modifying the heap
+*/
+
+}
 
 template<class keytype, class valuetype>
-void BHeap<keytype, valuetype>::insert(keytype k, valuetype v) {}
+keytype BHeap<keytype, valuetype>::extractMin() {
+/*
+Removes the minimum key in the heap and returns the key
+*/
+
+}
 
 template<class keytype, class valuetype>
-void BHeap<keytype, valuetype>::printKey() {}
+void BHeap<keytype, valuetype>::insert(keytype k, valuetype v) {
+/*
+Inserts the key k and value v pair into the heap
+*/
+
+}
+
+template<class keytype, class valuetype>
+void BHeap<keytype, valuetype>::printKey() {
+/*
+Writes the keys stored in the heap, printing the smallest binomial tree first
+*/
+
+}
